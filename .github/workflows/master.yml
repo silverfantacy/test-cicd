@@ -36,4 +36,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
           FOLDER: dist # build 後的資料夾
-          BUILD_SCRIPT: npm install && npm run build # 執行指令
+          BUILD_SCRIPT: yarn install && yarn run build # 執行指令
